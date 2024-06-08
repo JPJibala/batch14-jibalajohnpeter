@@ -1,0 +1,20 @@
+header {
+    background: url(./images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+footer a{
+    margin-right: 50px;
+}
+@media screen and (max-width: 670px){
+    header {
+        min-height: 500px;
+    }
+}
